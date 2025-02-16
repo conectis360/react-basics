@@ -11,9 +11,9 @@ interface Header {
 
 export default function Header({image, children}: Header) {
     return <article>
-        <div>
-            {children}
+        <header>
             <img src={image.src} alt={image.alt}/>
-        </div>
+            {children}
+        </header>
     </article>
 }
