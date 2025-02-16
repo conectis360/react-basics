@@ -7,8 +7,7 @@ function App() {
     <main>
       <CourseGoal 
         title="teste"
-        description="teste"
-      ></CourseGoal>
+      >TESTE</CourseGoal>
     </main>
     </>
   )
