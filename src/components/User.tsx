@@ -1,3 +1,4 @@
+/*
 type UserProps = {
     name: string;
   };
@@ -19,3 +20,4 @@ type UserProps = {
       </>
     );
   }
+    */
