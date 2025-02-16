@@ -6,7 +6,7 @@ interface CourseGoalsProps {
     children: ReactNode;
 };
 */
-type CourseGoalsProps = PropsWithChildren<{title: string}>
+type CourseGoalsProps = PropsWithChildren<{title: string}>;
 
 export default function CourseGoal({title, children}: CourseGoalsProps) {
     return <article>
